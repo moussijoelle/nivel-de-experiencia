@@ -1,27 +1,26 @@
-﻿# Nivel de experiencia
+# Nivel de experiencia
 
-Según los años de experiencia, asigna un nivel (principiante → Gurú).
+Según los años, te etiqueta: principiante, intermedio, avanzado, experto o Gurú.
 
 ## Qué hace
 
-- Formulario con nombre y años
-- Devuelve el nivel según rangos (<2, ≤4, ≤7, ≤10, más)
+- Nombre + años
+- Nivel por tramos
 - Resumen en `resumen-del-ejercicio.html`
 
 ## Cómo probarlo
 
-Abre `index.html` o la demo.
+Abre `index.html`.
 
 Demo: https://moussijoelle.github.io/nivel-de-experiencia/
 
 ## Cómo lo construí
 
-- HTML + JavaScript (`js/`)
-- Condicionales por tramos de años
+Condicionales en `js/` por rangos de años.
 
 ## Cómo verificarlo
 
-Sin tests. Pruebo varios años (0, 3, 8, 12) y campos vacíos.
+Pruebo 1, 3, 6, 9 y 12 años.
 
 ---
 
